@@ -10,11 +10,10 @@
     </declare-styleable>
 
     <declare-styleable name="CustomViewGroupLayoutParams">
-        <attr name="android:layout_gravity"/>
-        <attr name="layout_position">
-            <enum name="middle" value="0"/>
-            <enum name="left" value="1"/>
-            <enum name="right" value="2"/>
+        <attr name="position">
+            <enum name="center" value="0"/>
+            <enum name="start" value="1"/>
+            <enum name="end" value="2"/>
         </attr>
     </declare-styleable>
 </resources>
